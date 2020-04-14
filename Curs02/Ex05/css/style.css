@@ -1,0 +1,21 @@
+.my-square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.my-diamond {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  transform: rotate(45deg);
+}
+
+.my-circle {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
