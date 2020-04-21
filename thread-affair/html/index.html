@@ -28,7 +28,7 @@
         <div class="user-controls">
           <img src="/img/user-avatar.png" alt="User Avatar">
           <i class="fas fa-chevron-down"></i>
-          <i class="fas fa-bars"></i>
+          <label class="fas fa-bars" for="hack-menu"></label>
         </div>
 
         <div class="cart">
@@ -47,15 +47,21 @@
    
 
       <div class="nav-contaier">
-        <nav class="nav-main">
-          <ul>
-            <li><a href="" title="Home">Home</a></li>
-            <li><a href="" title="Costume">Costume</a></li>
-            <li><a href="" title="Camasi">Camasi</a></li>
-            <li><a href="" title="Accesorii">Accesorii</a></li>
-          </ul>
-        </nav>
-
+        <form>
+          <input type="checkbox"
+            class="hack-menu"
+            id="hack-menu"
+          >
+          <nav class="nav-main">
+            <ul>
+              <li><a href="" title="Home">Home</a></li>
+              <li><a href="" title="Costume">Costume</a></li>
+              <li><a href="" title="Camasi">Camasi</a></li>
+              <li><a href="" title="Accesorii">Accesorii</a></li>
+            </ul>
+          </nav>
+        </form>
+      
         <nav class="nav-secondary">
 
         </nav>
@@ -68,23 +74,25 @@
 
   <main class="content">
     <header class="banner-main">
-      <div>
+      <div class="cont banner-content">
         <h1>Custom Suits</h1>
         <h2>Get back to work in style</h2>
 
-        <a href="" class="banner-cta">Create your suit</a>
+        <a href="" class="btn btn-main btn-lg">Create your suit</a>
 
-        <p>A tailored suit that will fit you perfectly is a dream for everybody</p>
-        <p>
-          We proivde you with the design and you choose if you like it or if you
-          want to change the details with our online configurator
-        </p>
+        <div class="">
+          <p>A tailored suit that will fit you perfectly is a dream for everybody</p>
+          <p>
+            We proivde you with the design and you choose if you like it or if you
+            want to change the details with our online configurator
+          </p>
+        </div>
       </div>
     </header>
 
     <main class="content-main">
-      <section class="catalog-preview">
-        <h1>Al time <span>BESTSELLERS</span></h1>
+      <section class="catalog-preview cont">
+        <h1>All time <span>BESTSELLERS</span></h1>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam vel tempore, 
           facilis id sapiente  
@@ -117,7 +125,7 @@
             </div>
 
             <div class="product-actions">
-              <a href="" class="cta-a2c" title="Add to cart">
+              <a href="" class="btn btn-main" title="Add to cart">
                 Add to cart
               </a>
             </div>
@@ -127,7 +135,7 @@
           <article class="product-tile">
             <a href="" class="product-image-container" title="Thread Affair Traveller Suit">
               <img src="/img/products/product-02a.jpg" alt="">
-              <span class="product-badge">%</span>
+              <span class="product-badge multi-line">new entry</span>
             </a>
 
             <a href="" 
@@ -145,7 +153,7 @@
             </div>
 
             <div class="product-actions">
-              <a href="" class="cta-a2c" title="Add to cart">
+              <a href="" class="btn btn-main" title="Add to cart">
                 Add to cart
               </a>
             </div>
@@ -155,7 +163,7 @@
           <article class="product-tile">
             <a href="" class="product-image-container" title="Thread Affair Traveller Suit">
               <img src="/img/products/product-03a.jpg" alt="">
-              <span class="product-badge">%</span>
+              <span class="product-badge multi-line">new entry</span>
             </a>
 
             <a href="" 
@@ -173,7 +181,7 @@
             </div>
 
             <div class="product-actions">
-              <a href="" class="cta-a2c" title="Add to cart">
+              <a href="" class="btn btn-main" title="Add to cart">
                 Add to cart
               </a>
             </div>
@@ -184,7 +192,7 @@
       </section>
     </main>
     <main class="content-main">
-      <section class="catalog-preview">
+      <section class="catalog-preview cont">
         <h1>New <span>COLLECTION</span></h1>
 
         <p>
@@ -196,7 +204,7 @@
           incidunt quibusdam at, alias possimus nisi as, vero ullam.
         </p>
 
-        <div class="catalog-review-tiles">
+        <div class="catalog-preview-tiles">
           <article class="product-tile">
             <a href="" class="product-image-container" title="Thread Affair Traveller Suit">
               <img src="/img/products/product-04a.jpg" alt="">
@@ -218,7 +226,7 @@
             </div>
 
             <div class="product-actions">
-              <a href="" class="cta-a2c" title="Add to cart">
+              <a href="" class="btn btn-main" title="Add to cart">
                 Add to cart
               </a>
             </div>
@@ -245,7 +253,7 @@
             </div>
 
             <div class="product-actions">
-              <a href="" class="cta-a2c" title="Add to cart">
+              <a href="" class="btn btn-main" title="Add to cart">
                 Add to cart
               </a>
             </div>
@@ -254,7 +262,7 @@
           <article class="product-tile">
             <a href="" class="product-image-container" title="Thread Affair Traveller Suit">
               <img src="/img/products/product-06a.jpg" alt="">
-              <span class="product-badge">%</span>
+              <span class="product-badge blue">signed</span>
             </a>
 
             <a href="" 
@@ -272,7 +280,7 @@
             </div>
 
             <div class="product-actions">
-              <a href="" class="cta-a2c" title="Add to cart">
+              <a href="" class="btn btn-main" title="Add to cart">
                 Add to cart
               </a>
             </div>
