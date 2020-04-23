@@ -1,0 +1,46 @@
+.home-stores {
+    margin-bottom: 70px;
+
+  h1 {
+    font-size: 41px;
+    color: $gray-tertiary;
+  }
+
+  .stores-long-description {
+    display: none;
+  }
+
+  .stores-short-description {
+    border: 1px solid $gray-secondary;
+    padding: 12px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+
+    img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    }
+
+    p {
+      width: 280px;
+      text-align: left;
+      font-size: 14px;
+      font-weight: 300;
+      display: inline-block;
+      margin-top: 15px;
+    }
+
+    ul {
+      display: inline-flex;
+      width: 280px;
+      justify-content: space-between;
+
+      a{
+        color: $brand-main;
+        font-size: 12px;
+      }
+    }
+  }
+  
+}
