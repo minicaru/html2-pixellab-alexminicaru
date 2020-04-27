@@ -1,0 +1,14 @@
+.header-top {
+  background: url('../../../img/banners/banner1.png') no-repeat center center;
+  background-size: cover;
+  height: 500px;
+
+  li {
+    display: inline-flex;
+    justify-content: space-around;
+  }
+
+  a {
+    color: $white;
+  }
+}
