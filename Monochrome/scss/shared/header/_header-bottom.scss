@@ -1,0 +1,17 @@
+.header-bottom {
+  border: 1px solid gray;
+  background-color: gray;
+  height: 52px;
+  width: 1920px;
+
+  li {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+
+    a {
+      padding: 0 20px 0 20px;
+      
+    }
+  }
+}
