@@ -78,3 +78,34 @@ body {
   align-self: stretch;
   max-width: initial;
 }
+
+.flex-container-04 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.flex-container-04 :last-child {
+  align-self: flex-start;
+}
+
+.flex-container-05 {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-container-05 div:nth-of-type(4) {
+  align-self: stretch;
+  max-width: initial;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.flex-container-06 div:nth-of-type(3) {
+  align-self: flex-end;
+}
