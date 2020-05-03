@@ -70,3 +70,15 @@ body {
   flex-direction: column-reverse;
   justify-content: flex-end;
 }
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-06 {
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: flex-end;
+}
