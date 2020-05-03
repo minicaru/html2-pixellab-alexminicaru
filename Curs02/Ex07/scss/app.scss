@@ -9,3 +9,25 @@
   height: 150px;
   border: 1px solid #000;
 }
+
+@for $i from 1 to 11 {
+  .box-0#{$i} {
+    border-width: #{$i}px;
+  }
+}
+
+@for $i from 1 to 11 {
+  @if $i % 2 != 1 {
+    .box-0#{$i} {
+      background-color: gray;
+    }
+  }
+}
+
+@for $i from 1 to 11 {
+  @if $i % 2 != 0 {
+    .box-0#{$i} {
+      border: dotted;
+    }
+  }
+}

@@ -18,4 +18,56 @@
   border-radius: 100px;
 }
 
+.next {
+  width: 30px;
+  height: 30px;
+  border: solid black;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 3px;
+  background-color: transparent;
+  transform: rotate(-45deg);
+}
+
+.previous {
+  width: 30px;
+  height: 30px;
+  border: solid black;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 3px;
+  background-color: transparent;
+  transform: rotate(135deg);
+}
+
+.up {
+  width: 30px;
+  height: 30px;
+  border: solid black;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 3px;
+  background-color: transparent;
+  transform: rotate(-135deg);
+}
+
+.down {
+  width: 30px;
+  height: 30px;
+  border: solid black;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 3px;
+  background-color: transparent;
+  transform: rotate(45deg);
+}
+
 /*# sourceMappingURL=style.css.map */

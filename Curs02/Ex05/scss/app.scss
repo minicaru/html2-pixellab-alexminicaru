@@ -24,3 +24,49 @@
 .my-circle {
     @include shape ('circle', 100px)
 }
+
+@mixin arrow ($direction, $size: 30px){
+  width: $size;
+  height: $size;
+  border : solid black;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 3px;
+  background-color: transparent;
+
+
+  @if $direction == 'left' {
+    transform: rotate(135deg);
+  }
+
+  @if $direction == 'right' {
+    transform: rotate(-45deg);
+  }
+
+  @if $direction == 'up' {
+    transform: rotate(-135deg);
+  }
+
+  @if $direction == 'down' {
+    transform: rotate(45deg);
+  }
+
+}
+
+.next {
+  @include arrow('right', )
+}
+
+.previous {
+  @include arrow('left', )
+}
+
+.up {
+  @include arrow('up', )
+}
+
+.down {
+  @include arrow('down', )
+}
