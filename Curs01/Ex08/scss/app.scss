@@ -26,3 +26,31 @@
     @extend .square;
     background-color: purple;
 }
+
+.circles {
+    text-align: center;
+    width: 802px;
+    border: 1px solid black;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 1px solid black;
+}
+
+.circle-red {
+    @extend .circle;
+    background-color: red;
+}
+
+.circle-green {
+    @extend .circle;
+    background-color: green;
+}
+
+.circle-blue {
+    @extend .circle;
+    background-color: blue;
+}
