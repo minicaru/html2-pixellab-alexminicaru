@@ -4,3 +4,36 @@
   margin: 16px 0;
 }
 
+$colors: (
+  'main':red,
+  'primary':blue,
+  'secondary':green,
+  'tertiary':yellow,
+  'neutral':gray
+);
+
+@each $colorName, $colorValue in $colors {
+  .btn-#{$colorName} {
+    color: $colorValue;
+  }
+}
+
+$backgorund-colors: (
+  'main':red,
+  'primary':blue,
+  'secondary':green,
+  'tertiary':yellow,
+  'neutral':gray
+);
+
+@each $colorName, $colorValue in $backgorund-colors {
+  .btn-bg-#{$colorName} {
+    background-color: $colorValue;
+  }
+}
+
+@each $colorName, $colorValue in $backgorund-colors {
+  .text-#{$colorName} {
+    color: $colorValue;
+  }
+}
