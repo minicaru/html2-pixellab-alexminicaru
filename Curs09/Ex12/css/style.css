@@ -47,3 +47,39 @@ body {
   color: #fff;
 }
 /* do not touch this */
+
+.flex-container-01 {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.flex-container-02 {
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.flex-container-03 {
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-end;
+}
+
+.flex-container-04 {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+
+.flex-container-05 {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+
+.flex-container-06 {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
