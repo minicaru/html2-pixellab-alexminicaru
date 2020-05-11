@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex13</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .exercise {
+      height: 75px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Aliniate folosind flexbox</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container border border-warning">
+    <div class="row exercise justify-content-center">
+      <div class="col-4 bg-info"></div>
+    </div>
+    <div class="row exercise justify-content-between">
+      <div class="col-4 bg-dark"></div>
+      <div class="col-4 bg-dark"></div>
+    </div>
+    <div class="row exercise justify-content-center">
+      <div class="col-4 bg-success"></div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container border-2 border-warning">
+    <div class="row exercise justify-content-between">
+      <div class="col-4 bg-primary"></div>
+      <div class="col-4 bg-dark"></div>
+    </div>
+    <div class="row exercise justify-content-between">
+      <div class="col-4 bg-danger"></div>
+      <div class="col-4 bg-success"></div>
+    </div>
+    <div class="row exercise justify-content-start">
+      <div class="col-4 bg-dark"></div>
+      <div class="col-4 bg-success"></div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Aliniate folosind offset</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container border border-dark">
+    <div class="row exercise">
+      <div class="col-4 bg-danger offset-4"></div>
+    </div>
+    <div class="row exercise">
+      <div class="col-4 bg-success"></div>
+      <div class="col-4 bg-success offset-4"></div>
+    </div>
+    <div class="row exercise">
+      <div class="col-4 bg-dark offset-4"></div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container border border-dark">
+    <div class="row exercise">
+      <div class="col-4 bg-primary"></div>
+      <div class="col-4 bg-danger offset-4"></div>
+    </div>
+    <div class="row exercise">
+      <div class="col-4 bg-warning"></div>
+      <div class="col-4 bg-info offset-4"></div>
+    </div>
+    <div class="row exercise">
+      <div class="col-4 bg-info"></div>
+      <div class="col-4 bg-warning"></div>
+    </div>
+  </div>
+</body>
+</html>
