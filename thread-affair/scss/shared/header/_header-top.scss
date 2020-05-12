@@ -3,24 +3,49 @@
   flex-direction: row-reverse;
   justify-content: center;
   margin-top: 8px;
+
+  @include media-breakpoint-up('md') {
+    display: block;
+  }
 }
 
 .header-contact {
   display: none;
+
+  @include media-breakpoint-up(md) {
+    display: block;
+    float: left;
+  }
+
+  a {
+    color: $gray-secondary;
+  }
+
+  i {
+    color: $brand-main;
+    font-size: 20px;
+  }
 }
 
 .header-controls {
-
   display: flex;
   align-items: center;
 
+  @include media-breakpoint-up('md') {
+    float: right;
+  }
+
   .header-search {
     width: 185px;
-    height:25px;
+    height: 25px;
     border: 1px solid $gray-secondary;
     border-radius: 15px;
     text-align: center;
     padding: 0 12px;
+
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
 
     .site-search {
       border: 0;
@@ -33,6 +58,7 @@
 .user-controls {
   display: flex;
   align-items: center;
+
 
   img {
     width: 25px;
@@ -47,8 +73,8 @@
   label {
     color: $brand-main;
     font-size: 24px;
+    margin: 0;
   }
-
 }
 
 .cart {
@@ -59,7 +85,12 @@
   display: block;
   width: 50px;
 
+  @include media-breakpoint-up('md') {
+    width: 130px;
+  }
+
   img {
     width: 100%;
   }
 }
+

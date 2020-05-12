@@ -2,26 +2,26 @@
   min-height: 236px;
   height: 236px;
   background: url('/img/banners/banner-04.jpg')
-  no-repeat
-  center
-  right;
+    no-repeat
+    center
+    right;
   background-size: cover;
   margin-bottom: 70px;
-  
 
   a {
     color: $white;
+    text-transform: uppercase;
     text-align: right;
     display: flex;
+    height: 100%;
     flex-direction: column;
     justify-content: flex-end;
-    height: 100%;
     padding-bottom: 35px;
 
     & > span {
       display: block;
     }
-    
+
     .cta-line-1 {
       font-size: 26px;
       font-weight: 700;

@@ -12,9 +12,9 @@
     [for="field-newsletter"] {
       font-size: 14px;
       text-transform: uppercase;
+      display: block;
       text-align: center;
       line-height: 30px;
-      display: block;
 
       span {
         font-weight: 700;
@@ -34,13 +34,16 @@
     }
 
     button {
-      color: white;
+      color: $white;
       border: 0;
       background-color: transparent;
-      text-transform: uppercase ;
+      text-transform: uppercase;
       padding-right: 90px;
       height: 60px;
-      background: url('/img/icons/mail-send.png') no-repeat center right;
+      background: url('/img/icons/mail-send.png')
+        no-repeat
+        center
+        right;
       background-size: 65px;
     }
   }

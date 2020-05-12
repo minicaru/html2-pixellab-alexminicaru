@@ -1,3 +1,8 @@
 @import './header-top';
 @import './header-bottom';
 
+.header {
+  @include media-breakpoint-up('md') {
+    margin-bottom: 25px;
+  }
+}
