@@ -9,6 +9,11 @@
     align-items: center;
     color: $white;
 
+    @include media-breakpoint-up('md') {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
     [for="field-newsletter"] {
       font-size: 14px;
       text-transform: uppercase;
@@ -31,6 +36,17 @@
       border-bottom-style: solid;
       display: inline-block;
       margin-bottom: 16px;
+
+
+      @include media-breakpoint-up('md') {
+        width: 415px;
+        align-self: flex-end;
+      }
+
+      @include media-breakpoint-up('lg') {
+        width: 615px;
+        text-align: center;
+      }
     }
 
     button {

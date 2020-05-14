@@ -5,11 +5,18 @@
   text-align: center;
   text-transform: uppercase;
   font-size: 16px;
+  transition: background-color 0.5s,
+    color 0.5s;
 }
 
 .btn-main {
   background-color: $brand-main;
   color: $white;
+
+  &:hover {
+    color: $white;
+    text-decoration: none;
+  }
 }
 
 .btn-lg {

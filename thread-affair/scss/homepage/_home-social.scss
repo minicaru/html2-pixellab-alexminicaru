@@ -7,6 +7,10 @@
     font-size: 35px;
     font-weight: 300;
 
+    @include media-breakpoint-up('md') {
+      color: $black;
+    }
+
     span {
       font-weight: 500;
     }
@@ -16,6 +20,10 @@
 .social-icons {
   display: flex;
   justify-content: space-around;
+
+  @include media-breakpoint-up('md') {
+    width: 290px;
+  }
 
   li {
     display: inline-block;
